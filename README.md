@@ -15,8 +15,8 @@ It was a difficult task to write and modularize more than 1000 lines of code.
 
 #### Install FUSE on your system and follow the following steps.
 
-1. Go to FilesystemDriver inside fuse_fs directory and run the following commands to build an image for virtual filesystem under fuse_fs directory:
-  (i)  make
+1. Go to FilesystemDriver inside fuse_fs directory and run the following commands to build an image for virtual filesystem under fuse_fs directory:<br>
+  (i)  make<br>
   (ii) ./simpleFS
   #### Note: This builds an image for filesystem that is 20 blocks large with each block of size 512 bytes.
 
