@@ -9,7 +9,7 @@ This filesystem mounts a regular directory onto a mount point to appear as regul
 ##### Note: This program implments a recursive version of rmdir command.
 
 ### Challneges I ran into
-It was a difficult task to write and modularize more than 1000 lines of code.
+It was a difficult task to write and modularize more than 1000 lines of code. 
 
 ### How to use Virtual_Filesystem?
 
@@ -20,7 +20,7 @@ It was a difficult task to write and modularize more than 1000 lines of code.
   (ii) ./simpleFS
   #### Note: This builds an image for filesystem that is 20 blocks large with each block of size 512 bytes.
 
-2. Now under fuse_fs run make command to build a daemo.
+2. Now under fuse_fs run make command to build a daemon.
 
 3. Run: ./fusefs -s -d [mount_point]
  -> Here the mount_point refers to an empty scratch directory created by you.
